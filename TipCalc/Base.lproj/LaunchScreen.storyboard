@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flatgrey2" translatesAutoresizingMaskIntoConstraints="NO" id="Hdq-hw-dwt">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TIP300CLEAR" translatesAutoresizingMaskIntoConstraints="NO" id="4Xb-CS-wK3">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="C85-WR-6JP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Xb-CS-wK3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FlH-c4-SLW"/>
+                            <constraint firstItem="4Xb-CS-wK3" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="130" id="HMQ-hq-IOh"/>
+                            <constraint firstItem="4Xb-CS-wK3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Tkg-Ew-snk"/>
+                            <constraint firstItem="Hdq-hw-dwt" firstAttribute="centerX" secondItem="4Xb-CS-wK3" secondAttribute="centerX" id="XkU-xr-VWB"/>
+                            <constraint firstItem="Hdq-hw-dwt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Xwf-ES-5bN"/>
+                            <constraint firstItem="Hdq-hw-dwt" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="axh-dD-zBm"/>
+                            <constraint firstItem="Hdq-hw-dwt" firstAttribute="centerY" secondItem="4Xb-CS-wK3" secondAttribute="centerY" id="vii-Ej-BYL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TIP300CLEAR" width="300" height="300"/>
+        <image name="flatgrey2" width="1400" height="851"/>
+    </resources>
+</document>
